@@ -22,6 +22,12 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 @keyframes blinker { from { opacity: 1.0; }   05% { opacity: 0.7; }   to { opacity: 1.0; } }
 .glow { -webkit-animation: glow 1s ease-in-out infinite alternate; -moz-animation: glow 1s ease-in-out infinite alternate; animation: glow 1s ease-in-out infinite alternate;}
 @-webkit-keyframes glow { from { text-shadow: 0 0 0px #fff, 0 0 0px #d2d2ff, 0 0 0px #d2d2ff, 0 0 0px #d2d2ff, 0 0 3px #d2d2ff, 0 0 7px #d2d2ff, 0 0 7px #d2d2ff;} to { text-shadow: 0 0 0px #fff, 0 0 0px #d2d2ff, 0 0 0px #d2d2ff, 0 0 0px #d2d2ff, 0 0 0px #d2d2ff, 0 0 3px #d2d2ff, 0 0 7px #d2d2ff;}}
+
+/* Muted bronze panels and readable brown-gold accents */
+[style*="background-color:#816b43"] { color:#fff; }
+[style*="background-color:#816b43"] font[color="#74582f"] { color:#fff; }
+.glow { animation:none; -webkit-animation:none; -moz-animation:none; text-shadow:none; }
+.blink_me { animation:none; }
 </style>
 <script src="https://mccdn.me/assets/js/widget.js" defer="defer"></script> 
 <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
@@ -67,7 +73,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- Headline offers -->
-<div class="w3-container" style="padding:20px 0px 0px 0px; background-color:#E1B006;">
+<div class="w3-container" style="padding:20px 0px 0px 0px; background-color:#816b43;">
     <div class="w3-center" style="padding:20px; margin:30px;">	
         <font style="font-size:xxx-large; padding:0px; margin:15px; color:#FFF;">
             <b class="glow">30-DAY RISK-FREE TRIAL LISTING</b><br />
@@ -83,7 +89,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <section class="w3-container" style="padding:38px 24px;background:#f8f6ef"><div style="max-width:1080px;margin:auto"><h2 style="font-family:Cinzel,serif">Seller insight from your broker</h2><p>Read Jeff Jones’s Treasure Valley market analysis, seller strategy, and practical guidance. If a flat-fee listing fits your goals, see the full-service seller option at FlatFeeBoise.com.</p><a class="w3-button w3-black" href="seller-insights.html">Explore Seller Insights</a> <a class="w3-button w3-white" style="border:1px solid #222" href="https://flatfeeboise.com/">Visit Flat Fee Boise</a></div></section>
 <!-- The Premier Marketing System -->
-<div class="w3-container w3-center" style="padding:20px; margin:30px; text-align:center; background-color:#E1B006; color:#FFF">
+<div class="w3-container w3-center" style="padding:20px; margin:30px; text-align:center; background-color:#816b43; color:#FFF">
       <div class="w3-center w3-xxxlarge">No Upfront Fees.</div>  
 	  <div class="w3-center w3-xxxlarge">Only pay <u class="glow">AFTER</u> house sells.</div>
 </div> 
@@ -118,7 +124,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 	
 	
 <!-- PROVEN. RELIABLE. TRUST -->
-<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#E1B006">
+<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#816b43">
       <div class="w3-center w3-xxxlarge glow" style="color:#FFF">PROVEN. RELIABLE. TRUST.</div>  
 </div>
 
@@ -152,7 +158,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- PROVEN. RELIABLE. TRUST -->
-<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#E1B006">
+<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#816b43">
       <div class="w3-center w3-xxxlarge glow" style="color:#FFF">PROVEN. RELIABLE. TRUST.</div>  
 </div>
 	
@@ -198,46 +204,46 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <div class="w3-col">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-xxxlarge w3-padding-32 glow" style="">208 Premier Marketing <u>System</u></li>
-        <li class="w3-xxlarge w3-padding-16">Jeff Jones ranked <b style="color:#FF0000">TOP 3</b> percent by MLS # transactions 2023<br />Over 80 <b style="color:#000">5-<img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /> Reviews</b></font></li>
-        <li class="w3-padding-16" style="background-color:#E1B006; color:#FFF">
+        <li class="w3-xxlarge w3-padding-16">Jeff Jones ranked <b style="color:#74582f">TOP 3</b> percent by MLS # transactions 2023<br />Over 80 <b style="color:#000">5-<img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /> Reviews</b></font></li>
+        <li class="w3-padding-16" style="background-color:#816b43; color:#FFF">
             <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
             	<b class="glow">30-DAY RISK-FREE TRIAL LISTING</b><br />
             </font> 
             <font color="#FFFFFF" style="font-size:large; padding:0px;">
                 If your home is not under contract in 30 days<br />
                 you may cancel for any reason for $ZERO cost whatsoever.<br />
-                <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#F00">(<u>208</u>) <u>807-7789</u></font></b></a> 
+                <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a> 
             </font>
         </li>
-        <li class="w3-padding-16 w3-xlarge"><font color="#FF0000"><b>COMMUNICATION GUARANTEE</b></font>: if we fail to update you weekly or fail to return your call/text within 24 hours, <br />
+        <li class="w3-padding-16 w3-xlarge"><font color="#74582f"><b>COMMUNICATION GUARANTEE</b></font>: if we fail to update you weekly or fail to return your call/text within 24 hours, <br />
     we will pay you $200 for each occurance</li>
-        <li class="w3-padding-16 w3-xlarge"><b>No up-front fees, <font color="#FF0000">Only pay <u>AFTER</u> your home sells</font></b></li>
-        <li class="w3-padding-16 w3-light-grey">An experienced <font color="#FF0000"><u><b>Dedicated Transaction Coordinator</b></u></font> responsible for all paperwork will be assigned to you</li>
-        <li class="w3-padding-16 ">Professional <font color="#FF0000"><b>HDReal Magazine Quality Photos</b></font> are Included!</li>
-        <li class="w3-padding-16 w3-light-grey">A Matterport <font color="#FF0000"><b>360 Virtual Tour</b></font> is Included!<br />
+        <li class="w3-padding-16 w3-xlarge"><b>No up-front fees, <font color="#74582f">Only pay <u>AFTER</u> your home sells</font></b></li>
+        <li class="w3-padding-16 w3-light-grey">An experienced <font color="#74582f"><u><b>Dedicated Transaction Coordinator</b></u></font> responsible for all paperwork will be assigned to you</li>
+        <li class="w3-padding-16 ">Professional <font color="#74582f"><b>HDReal Magazine Quality Photos</b></font> are Included!</li>
+        <li class="w3-padding-16 w3-light-grey">A Matterport <font color="#74582f"><b>360 Virtual Tour</b></font> is Included!<br />
         <i>"It's like having an Always Open House 24/7"</i><br />
         (<u>Critical for out-of-state buyers</u>)</li>
-        <li class="w3-padding-16 "><font color="#FF0000"><b>Drone</b></font> photography and video is Included!</li>
-        <li class="w3-padding-16 w3-light-grey"><font color="#FF0000"><b><u>Virtual Staging</u></b></font> is included!</li>		  
+        <li class="w3-padding-16 "><font color="#74582f"><b>Drone</b></font> photography and video is Included!</li>
+        <li class="w3-padding-16 w3-light-grey"><font color="#74582f"><b><u>Virtual Staging</u></b></font> is included!</li>		  
         <li class="w3-padding-16 ">Mega Listing Syndication to Zillow, Realtor.com<br /> 
         + over 900 Websites<br /> 
         + <u>Facebook Marketplace</u><br /> 
         + Social media blast to over 20 For Sale groups</li>
-        <li class="w3-padding-16 w3-light-grey"><font color="#FF0000"><b>We optomize our MLS listings weekly</b></font></li>      
-        <li class="w3-padding-16 "><font color="#FF0000"><b>Luxury Yard Sign</b></font> <img src="Images/LuxurySign.png" width="*" height="150" /> Post & Flyer Box</li>
-        <li class="w3-padding-16 w3-light-grey"><font color="#FF0000"><b>Daily market updates</b></font> by email and weekly phone or Zoom meetings</li>        
-        <li class="w3-padding-16">Pre-Listing <font color="#FF0000"><b>Home Inspection</b></font></li>
-        <li class="w3-padding-16 w3-light-grey"><font color="#FF0000"><b>Home Warranty</b></font> listing coverage</li>
-        <li class="w3-padding-16">We advise on pre-escrow <font color="#FF0000"><b>Contract Negotiations</b></font></li>
-        <li class="w3-padding-16 w3-light-grey">We prepare and submit multiple <font color="#FF0000"><b>COUNTER OFFERS</b></font></li>
-        <li class="w3-padding-16">We always <b><font color="#FF0000">Verify Buyer's Financing</font></b> before accepting offers</li>
-        <li class="w3-padding-16 w3-light-grey"><font color="#FF0000"><b>Opening Escrow</b></font> and coordinating with title companies</li>
-        <li class="w3-padding-16">We <font color="#FF0000"><b>review settlement statements</b></font> with you line-by-line prior to closing</li>        
-        <li class="w3-padding-16  w3-light-grey">We attend signings in person at the title company <font color="#FF0000"><b><u>#touchdown</u></b>, <b><u>#highfive</u></b></font></li>
-        <li class="w3-padding-16"> We handle all <font color="#FF0000"><b>Idaho required paperwork</b></font> and records compliance</li>
-        <li class="w3-padding-16  w3-light-grey"><font color="#FF0000"><b>Customer service survey</b></font> after closing because your opinion matters!</li>
-        <li class="w3-padding-16">After each closing we will <font color="#FF0000"><b>donate $300 in your name</b></font> to the Idaho Humane Society or a local dog rescue <img src="Images/Testimonial-IDHS2.png" width="*" height="300" /></li>
-        <li class="w3-padding-16  w3-light-grey" style="font-size:x-large"><a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> Text <b><font color="#F00">(<u>208</u>) <u>807-7789</u></font></b></a><br />
+        <li class="w3-padding-16 w3-light-grey"><font color="#74582f"><b>We optomize our MLS listings weekly</b></font></li>      
+        <li class="w3-padding-16 "><font color="#74582f"><b>Luxury Yard Sign</b></font> <img src="Images/LuxurySign.png" width="*" height="150" /> Post & Flyer Box</li>
+        <li class="w3-padding-16 w3-light-grey"><font color="#74582f"><b>Daily market updates</b></font> by email and weekly phone or Zoom meetings</li>        
+        <li class="w3-padding-16">Pre-Listing <font color="#74582f"><b>Home Inspection</b></font></li>
+        <li class="w3-padding-16 w3-light-grey"><font color="#74582f"><b>Home Warranty</b></font> listing coverage</li>
+        <li class="w3-padding-16">We advise on pre-escrow <font color="#74582f"><b>Contract Negotiations</b></font></li>
+        <li class="w3-padding-16 w3-light-grey">We prepare and submit multiple <font color="#74582f"><b>COUNTER OFFERS</b></font></li>
+        <li class="w3-padding-16">We always <b><font color="#74582f">Verify Buyer's Financing</font></b> before accepting offers</li>
+        <li class="w3-padding-16 w3-light-grey"><font color="#74582f"><b>Opening Escrow</b></font> and coordinating with title companies</li>
+        <li class="w3-padding-16">We <font color="#74582f"><b>review settlement statements</b></font> with you line-by-line prior to closing</li>        
+        <li class="w3-padding-16  w3-light-grey">We attend signings in person at the title company <font color="#74582f"><b><u>#touchdown</u></b>, <b><u>#highfive</u></b></font></li>
+        <li class="w3-padding-16"> We handle all <font color="#74582f"><b>Idaho required paperwork</b></font> and records compliance</li>
+        <li class="w3-padding-16  w3-light-grey"><font color="#74582f"><b>Customer service survey</b></font> after closing because your opinion matters!</li>
+        <li class="w3-padding-16">After each closing we will <font color="#74582f"><b>donate $300 in your name</b></font> to the Idaho Humane Society or a local dog rescue <img src="Images/Testimonial-IDHS2.png" width="*" height="300" /></li>
+        <li class="w3-padding-16  w3-light-grey" style="font-size:x-large"><a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> Text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a><br />
         <img src="Images/YourEquity.jpg" width="77%" height="*" /></li>
       </ul>
     </div>
@@ -277,7 +283,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
             	<font color="#FF6600"><i><b>+</b></i></font> Estimated <font color="#390" size="+3"><b>NET CA$H</b></font> after closing <font color="#FF6600"><b>Seller's Settlement Statement </b></font> with detailed <u><b>closing cost</b></u>
             </li>
             <li class="w3-padding-16">
-                For <u><b>FREE</b></u> home valuation estimate TEXT your address to <b><a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button blink_me" style="color:#F00; font-size:xx-large; text-decoration:underline">(208) 807-7789</a></b>
+                For <u><b>FREE</b></u> home valuation estimate TEXT your address to <b><a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button blink_me" style="color:#74582f; font-size:xx-large; text-decoration:underline">(208) 807-7789</a></b>
             </li>
         </ul>   
     </div>
@@ -285,14 +291,14 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- The Premier Marketing System -->
-<div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#E1B006; color:#FFF">
+<div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#816b43; color:#FFF">
     <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
         <b class="glow">30-DAY RISK-FREE TRIAL LISTING</b><br />
     </font> 
     <font color="#FFFFFF" style="font-size:large; padding:0px;">
         If your home is not under contract in 30 days<br />
         you may cancel for any reason for $ZERO cost whatsoever.<br />
-        <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#F00">(<u>208</u>) <u>807-7789</u></font></b></a>        
+        <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a>        
     </font>
 </div>
 
@@ -306,7 +312,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 </div>
 
 
-<div class="w3-center" style="padding:40px; font-size:xx-large; background-color:#E1B006">	
+<div class="w3-center" style="padding:40px; font-size:xx-large; background-color:#816b43">	
 	<font color="#FFFFFF" size="+3"><b class="glow">VIP BUYER GUARANTEE:</b> If you don't love a home I helped you buy I’ll help sell it for FREE.</font>
 </div>
 
@@ -344,7 +350,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <img src="Images/3kBuyerCredit.jpg" width="100%" height="*" alt="Boise Commission Rebate" />
   </div>
   <div class="w3-half">
-    <div class="w3-xxlarge" style="margin:30px; text-align:center">BUYERS are you tired of <font color="#FF0000"><B><u>OVER PRICED</u></B></font><br />
+    <div class="w3-xxlarge" style="margin:30px; text-align:center">BUYERS are you tired of <font color="#74582f"><B><u>OVER PRICED</u></B></font><br />
     homes nobody else wanted on the MLS?<br /><br />
     VIP Buyers by-pass MLS bidding wars in your ideal neighborhood with pre-market access to new construction, motivated sellers, distressed sales, pre-forclosures and auctions.<br /><br />
     Buyers get bids on your custom house plans with our reputable local builders in prime locations on strategic infill unused and underutilized land. Infill revitalizes communities by breathing new life into empty buildings, vacant lots, and unused parcels, <br />
@@ -388,7 +394,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- PROVEN. RELIABLE. TRUST -->
-<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#E1B006">
+<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#816b43">
       <div class="w3-center w3-xxxlarge glow" style="color:#FFF">PROVEN. RELIABLE. TRUST.</div>  
 </div>
 
@@ -509,14 +515,14 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- The Premier Marketing System -->
-<div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#E1B006; color:#FFF">
+<div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#816b43; color:#FFF">
     <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
         <b class="glow">30-DAY RISK-FREE TRIAL LISTING</b><br />
     </font> 
     <font color="#FFFFFF" style="font-size:large; padding:0px;">
         If your home is not under contract in 30 days<br />
         you may cancel for any reason for $ZERO cost whatsoever.<br />
-        <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#F00">(<u>208</u>) <u>807-7789</u></font></b></a> 
+        <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a> 
     </font>
 </div>
 
@@ -550,14 +556,14 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- PROVEN. RELIABLE. TRUST -->
-<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#E1B006">
+<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#816b43">
       <div class="w3-center w3-xxxlarge glow" style="color:#FFF">PROVEN. RELIABLE. TRUST.</div>  
 </div>
 
 
 <!-- Meet Jeff YouTube Videos -->
 <div class="w3-container w3-light-grey" style="padding:40px 0px 0px 0px">
-  <h3 class="w3-center" style="font-size:xx-large">Meet <font color="#FF0000"><b>Jeff Jones</b></font>, Designated Broker for 208 Premier Real Estate</h3>
+  <h3 class="w3-center" style="font-size:xx-large">Meet <font color="#74582f"><b>Jeff Jones</b></font>, Designated Broker for 208 Premier Real Estate</h3>
   
   <div class="w3-half" align="center" style="padding:40px 0px 40px 0px; margin: 0px">
     	<iframe width="560" height="315" src="https://www.youtube.com/embed/xJqfXw78LIQ?si=kTV70txrbEz0XrCV" title="Boise Idaho Real Estate Market Update" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -603,20 +609,20 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- PROVEN. RELIABLE. TRUST -->
-<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#E1B006">
+<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#816b43">
       <div class="w3-center w3-xxxlarge glow" style="color:#FFF">PROVEN. RELIABLE. TRUST.</div>  
 </div>
 
 
 <!-- The Premier Marketing System -->
-<div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#E1B006; color:#FFF">
+<div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#816b43; color:#FFF">
     <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
         <b class="glow">30-DAY RISK-FREE TRIAL LISTING</b><br />
     </font> 
     <font color="#FFFFFF" style="font-size:large; padding:0px;">
         If your home is not under contract in 30 days<br />
         you may cancel for any reason for $ZERO cost whatsoever.<br />
-        <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#F00">(<u>208</u>) <u>807-7789</u></font></b></a> 
+        <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a> 
     </font>
 </div>
 
@@ -668,7 +674,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- PROVEN. RELIABLE. TRUST -->
-<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#E1B006">
+<div class="w3-container w3-center" style="padding:30px 0px 30px 0px; text-align:center; background-color:#816b43">
       <div class="w3-center w3-xxxlarge glow" style="color:#FFF">PROVEN. RELIABLE. TRUST.</div>  
 </div>
 
@@ -706,7 +712,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <!-- Agent Production Report -->
 <div class="w3-center" style="padding:40px">
-    <font size="+4" color="#FF0000">WARNING!!! Before you hire an agent<br />
+    <font size="+4" color="#74582f">WARNING!!! Before you hire an agent<br />
     <u>check their stats and reviews</u>!!!</font>
 </div>
 <div class="w3-container w3-center">
@@ -724,20 +730,20 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   </div>
 </div>
 <div class="w3-center" style="padding:40px">
-    <font size="+4" color="#FF0000">WARNING!!! Before you hire an agent<br />
+    <font size="+4" color="#74582f">WARNING!!! Before you hire an agent<br />
     <u>check their stats and reviews</u>!!!</font>
 </div>
 
 
 <!-- The Premier Marketing System -->
-<div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#E1B006; color:#FFF">
+<div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#816b43; color:#FFF">
     <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
         <b class="glow">30-DAY RISK-FREE TRIAL LISTING</b><br />
     </font> 
     <font color="#FFFFFF" style="font-size:large; padding:0px;">
         If your home is not under contract in 30 days<br />
         you may cancel for any reason for $ZERO cost whatsoever.<br />
-        <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#F00">(<u>208</u>) <u>807-7789</u></font></b></a> 
+        <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a> 
     </font>
 </div>
 
@@ -757,7 +763,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <!-- FREE SELLERS GUIDE -->
 <div class="w3-container w3-padding-16 w3-black w3-xxlarge w3-padding-16" style="padding:40px 16px; margin:10px;">
   <div class="w3-center">
-		<p>As your trusted real estate advisors our goal is getting your home sold, for the most amount of money, in the shortest amount of time, and with the least amount of stress to you. Our business is about service and your home is our priority. You can rest assured you will receive top dollar from your investment through our <font color="#FF0000"><b><u>AGGRESSIVE</u></b></font> marketing.</p>
+		<p>As your trusted real estate advisors our goal is getting your home sold, for the most amount of money, in the shortest amount of time, and with the least amount of stress to you. Our business is about service and your home is our priority. You can rest assured you will receive top dollar from your investment through our <font color="#74582f"><b><u>AGGRESSIVE</u></b></font> marketing.</p>
   </div>
   <div class="w3-center">
       <img src="Images/SellerGuide.jpg" width="80%" height="*" alt="Boise Realtor Commission Rebate" />
@@ -768,7 +774,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <div class="w3-container w3-padding-16 w3-white w3-padding-16" style="padding:40px 16px; margin:10px;">
   <div class="w3-center">*Commissions are not set by law. All commissions are negotiable. There are no standard commission rates.</div>
   <div class="w3-center">Each seller decides total commissions paid. Commissions may vary.  Call (208) 807-7789 for details.</div>
-  <div class="w3-center">Copyright 208 Premier Real Estate 2026 all rights reserved. <a href="https://208premier.com/terms-and-conditions.html" target="_blank" style="color:#F90">Terms and Conditions</a> | <a href="PrivacyPolicy.html" target="_blank" style="color:#F90">Privacy Policy</a></div>
+  <div class="w3-center">Copyright 208 Premier Real Estate 2026 all rights reserved. <a href="https://208premier.com/terms-and-conditions.html" target="_blank" style="color:#74582f">Terms and Conditions</a> | <a href="PrivacyPolicy.html" target="_blank" style="color:#74582f">Privacy Policy</a></div>
 </div>
 
 
