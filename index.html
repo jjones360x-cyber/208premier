@@ -52,6 +52,16 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .seller-package__button:focus-visible{outline:3px solid #0d1b2d;outline-offset:4px}
 @media(max-width:800px){.seller-package__inner{grid-template-columns:minmax(0,1fr);gap:24px}.seller-package__book{padding:0 14px}.seller-package__book img{max-width:340px}}
 @media(max-width:480px){.seller-package{padding:38px 16px}.seller-package__heading,.seller-package__cta{padding:24px}.seller-package__benefits{padding:4px 24px}.seller-package__button{display:block;padding:14px 12px}}
+
+/* Primary flat-fee offer */
+.flat-fee-offer{padding:52px 24px;background:#816b43;color:#fff;text-align:center}
+.flat-fee-offer__inner{max-width:1040px;margin:0 auto}
+.flat-fee-offer__eyebrow{font-family:Cinzel,Georgia,serif;font-size:clamp(26px,5vw,52px);font-weight:700;line-height:1.12;letter-spacing:.025em;margin:0 0 14px}
+.flat-fee-offer__price{font-size:clamp(54px,10vw,88px);font-weight:900;line-height:1;color:#f3d486;margin:0 0 18px}
+.flat-fee-offer__copy{font-size:clamp(18px,2.8vw,25px);line-height:1.45;margin:0 auto 18px;max-width:780px}
+.flat-fee-offer__button{display:inline-block;background:#0d1b2d;color:#fff!important;border:1px solid #e4c27c;border-radius:4px;padding:13px 22px;text-decoration:none;font-size:18px;font-weight:700}
+.flat-fee-offer__button:hover{background:#142a45}
+@media(max-width:480px){.flat-fee-offer{padding:42px 18px}.flat-fee-offer__eyebrow{font-size:30px}.flat-fee-offer__price{font-size:64px}.flat-fee-offer__copy{font-size:19px}}
 </style>
 <script src="https://mccdn.me/assets/js/widget.js" defer="defer"></script> 
 <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
@@ -97,17 +107,14 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <!-- Headline offers -->
-<div class="w3-container" style="padding:20px 0px 0px 0px; background-color:#816b43;">
-    <div class="w3-center" style="padding:20px; margin:30px;">	
-        <font style="font-size:xxx-large; padding:0px; margin:15px; color:#FFF;">
-            <b class="glow">FULL-SERVICE 6-MONTH LISTING</b><br />
-        </font> 
-        <font style="font-size:large; padding:0px; color:#FFF;">
-            No upfront listing fee; $3,777 is due at closing if the home sells.<br /><small>*If the full listing term expires without a sale, no listing fee is due. Early cancellation is subject to the signed listing agreement.</small><br />
-            <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">Call or Text <b><font color="#FFF">(<u>208</u>) <u>807-7789</u></font></b></a>
-        </font>
-    </div>            
-</div>
+<section class="flat-fee-offer" aria-labelledby="flat-fee-offer-title">
+  <div class="flat-fee-offer__inner">
+    <h1 class="flat-fee-offer__eyebrow" id="flat-fee-offer-title">FULL-SERVICE FLAT FEE LISTING</h1>
+    <div class="flat-fee-offer__price">$3,777</div>
+    <p class="flat-fee-offer__copy">No upfront listing fee. Pay the flat listing fee at closing only if your home sells.</p>
+    <a href="sms:+12088077789?&amp;body=Hi Jeff, I would like to learn more about the $3,777 full-service flat fee listing." class="flat-fee-offer__button"><i class="fa fa-comment"></i> Call or Text (208) 807-7789</a>
+  </div>
+</section>
 
 
 <section class="w3-container" style="padding:38px 24px;background:#f8f6ef"><div style="max-width:1080px;margin:auto"><h2 style="font-family:Cinzel,serif">Seller insight from your broker</h2><p>Read Jeff Jones’s Treasure Valley market analysis, seller strategy, and practical guidance. If a flat-fee listing fits your goals, see the full-service seller option at FlatFeeBoise.com.</p><a class="w3-button w3-black" href="seller-insights.html">Explore Seller Insights</a> <a class="w3-button w3-white" style="border:1px solid #222" href="https://flatfeeboise.com/">Visit Flat Fee Boise</a></div></section>
@@ -230,10 +237,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <li class="w3-xxlarge w3-padding-16">Jeff Jones ranked <b style="color:#74582f">TOP 3</b> percent by MLS # transactions 2023<br />Over 80 <b style="color:#000">5-<img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /><img src="Images/gold-star.png" width="25" height="25" /> Reviews</b></font></li>
         <li class="w3-padding-16" style="background-color:#816b43; color:#FFF">
             <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
-            	<b class="glow">FULL-SERVICE 6-MONTH LISTING</b><br />
+            	<b class="glow">FULL-SERVICE FLAT FEE LISTING</b><br /><span style="display:inline-block;font-size:1.65em;font-weight:900;color:#f3d486;line-height:1.15;margin:8px 0">$3,777</span><br />
             </font> 
             <font color="#FFFFFF" style="font-size:large; padding:0px;">
-                No upfront listing fee; $3,777 is due at closing if the home sells.<br /><small>*If the full listing term expires without a sale, no listing fee is due. Early cancellation is subject to the signed listing agreement.</small><br />
+                No upfront listing fee. Pay at closing only if your home sells.<br />
                 <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a> 
             </font>
         </li>
@@ -304,10 +311,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <!-- The Premier Marketing System -->
 <div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#816b43; color:#FFF">
     <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
-        <b class="glow">FULL-SERVICE 6-MONTH LISTING</b><br />
+        <b class="glow">FULL-SERVICE FLAT FEE LISTING</b><br /><span style="display:inline-block;font-size:1.65em;font-weight:900;color:#f3d486;line-height:1.15;margin:8px 0">$3,777</span><br />
     </font> 
     <font color="#FFFFFF" style="font-size:large; padding:0px;">
-        No upfront listing fee; $3,777 is due at closing if the home sells.<br /><small>*If the full listing term expires without a sale, no listing fee is due. Early cancellation is subject to the signed listing agreement.</small><br />
+        No upfront listing fee. Pay at closing only if your home sells.<br />
         <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a>        
     </font>
 </div>
@@ -527,10 +534,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <!-- The Premier Marketing System -->
 <div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#816b43; color:#FFF">
     <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
-        <b class="glow">FULL-SERVICE 6-MONTH LISTING</b><br />
+        <b class="glow">FULL-SERVICE FLAT FEE LISTING</b><br /><span style="display:inline-block;font-size:1.65em;font-weight:900;color:#f3d486;line-height:1.15;margin:8px 0">$3,777</span><br />
     </font> 
     <font color="#FFFFFF" style="font-size:large; padding:0px;">
-        No upfront listing fee; $3,777 is due at closing if the home sells.<br /><small>*If the full listing term expires without a sale, no listing fee is due. Early cancellation is subject to the signed listing agreement.</small><br />
+        No upfront listing fee. Pay at closing only if your home sells.<br />
         <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a> 
     </font>
 </div>
@@ -626,10 +633,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <!-- The Premier Marketing System -->
 <div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#816b43; color:#FFF">
     <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
-        <b class="glow">FULL-SERVICE 6-MONTH LISTING</b><br />
+        <b class="glow">FULL-SERVICE FLAT FEE LISTING</b><br /><span style="display:inline-block;font-size:1.65em;font-weight:900;color:#f3d486;line-height:1.15;margin:8px 0">$3,777</span><br />
     </font> 
     <font color="#FFFFFF" style="font-size:large; padding:0px;">
-        No upfront listing fee; $3,777 is due at closing if the home sells.<br /><small>*If the full listing term expires without a sale, no listing fee is due. Early cancellation is subject to the signed listing agreement.</small><br />
+        No upfront listing fee. Pay at closing only if your home sells.<br />
         <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a> 
     </font>
 </div>
@@ -746,10 +753,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <!-- The Premier Marketing System -->
 <div class="w3-container w3-center" style="padding:50px; text-align:center; background-color:#816b43; color:#FFF">
     <font color="#FFFFFF" style="font-size:xxx-large; padding:0px; margin:15px;">
-        <b class="glow">FULL-SERVICE 6-MONTH LISTING</b><br />
+        <b class="glow">FULL-SERVICE FLAT FEE LISTING</b><br /><span style="display:inline-block;font-size:1.65em;font-weight:900;color:#f3d486;line-height:1.15;margin:8px 0">$3,777</span><br />
     </font> 
     <font color="#FFFFFF" style="font-size:large; padding:0px;">
-        No upfront listing fee; $3,777 is due at closing if the home sells.<br /><small>*If the full listing term expires without a sale, no listing fee is due. Early cancellation is subject to the signed listing agreement.</small><br />
+        No upfront listing fee. Pay at closing only if your home sells.<br />
         <a href="sms:+12088077789?&amp;body=Hi Jeff what's the current market value for ... [address]" class="w3-button">For <b>TOP DOLLAR</b> text <b><font color="#74582f">(<u>208</u>) <u>807-7789</u></font></b></a> 
     </font>
 </div>
