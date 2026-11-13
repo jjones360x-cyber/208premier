@@ -76,10 +76,16 @@ footer{background:#0f2133;color:#fff;padding:28px 24px;text-align:center}
 footer a{color:#e7c18a}
 @media(max-width:800px){.hero{grid-template-columns:1fr}.hero-photo{max-width:450px;margin:auto}.metrics{grid-template-columns:repeat(2,1fr)}.cards,.guarantees{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.proof{grid-template-columns:1fr}.adoption-content{grid-template-columns:1fr}.service ul{columns:1}}
 @media(max-width:500px){main{padding:0 16px 35px}.nav{padding:16px}.metrics{grid-template-columns:1fr 1fr;gap:8px}.metric{padding:14px 8px}.gallery{grid-template-columns:1fr}.lead{font-size:18px}}
+
+/* Direct-contact number: intentionally display-only, not a telephone-app link */
+.phone-display{display:inline-flex;vertical-align:middle;flex-direction:column;align-items:center;justify-content:center;max-width:100%;margin:4px 10px 4px 0;padding:12px 18px;background:#112c45;color:#fff;border:2px solid #b58b50;border-radius:5px;text-align:center;line-height:1.35;cursor:text}
+.phone-display-label{font:700 14px/1.45 Inter,Arial,sans-serif;color:#f8e4c1}
+.phone-display strong{font:800 clamp(18px,2.3vw,23px)/1.3 Inter,Arial,sans-serif;color:#fff;white-space:nowrap}
+.header-phone{font-weight:700;color:#f1d49b}
 </style>
 </head>
 <body>
-<header><nav class="nav" aria-label="Primary"><strong>208 Premier Real Estate</strong><a href="/">Home</a><a href="/seller-insights.html">Seller's Advantage</a><a href="https://flatfeeboise.com/">Flat Fee Listings</a><a href="tel:+12088077789">Call (208) 807-7789</a></nav></header>
+<header><nav class="nav" aria-label="Primary"><strong>208 Premier Real Estate</strong><a href="/">Home</a><a href="/seller-insights.html">Seller's Advantage</a><a href="https://flatfeeboise.com/">Flat Fee Listings</a><span class="header-phone">Call/Text Jeff Jones · (208) 807-7789</span></nav></header>
 <main>
 <section class="hero" aria-labelledby="broker-title">
   <div><p class="eyebrow">Meet your broker · Boise, Meridian, Eagle &amp; Treasure Valley</p>
@@ -88,7 +94,7 @@ footer a{color:#e7c18a}
     <p class="lead"><strong>Ten years licensed. A brokerage built around sellers. Million-dollar presentation without a percentage-based listing fee.</strong></p>
     <p>When you hire 208 Premier Real Estate, you work with the owner and Designated Broker—not a newly licensed salesperson learning the business on your listing. I have been licensed since 2016, founded my own Boise-area brokerage in July 2022, and built my service around one specialty: helping home sellers market, negotiate and close with confidence while keeping more of their equity.</p>
     <p>My full-service seller listing fee is <strong>$3,777, due at closing when your home sells</strong>, subject to our written agreement. The service is intentionally premium. The pricing is intentionally different.</p>
-    <a class="action gold" href="https://flatfeeboise.com/">See the $3,777 Listing Service</a><a class="action" href="tel:+12088077789">Talk with Jeff</a>
+    <a class="action gold" href="https://flatfeeboise.com/">See the $3,777 Listing Service</a><div class="phone-display" aria-label="Call or text Jeff Jones at 208-807-7789"><span class="phone-display-label">Call/Text Jeff Jones personal cell phone now</span><strong>(208) 807-7789</strong></div>
   </div>
   <figure><img class="hero-photo" src="https://d2ol7oe51mr4n9.cloudfront.net/user_2wyXJUl9tABthxbDgWpXd5BsEIE/af1c8721-cb5a-4769-96fd-c6de225d7b57.jpg" alt="Jeff Jones, Idaho Designated Broker and owner of 208 Premier Real Estate, in a suit and tie" width="1080" height="1080"><figcaption class="disclosure" style="text-align:center;margin-top:9px">Jeff Jones · Designated Broker &amp; Owner</figcaption></figure>
 </section>
@@ -179,7 +185,7 @@ footer a{color:#e7c18a}
 <h2>Real estate expertise. Personal accountability. A flat listing fee.</h2>
 <p>Whether you're preparing to sell in Boise, Meridian, Eagle or elsewhere in the Treasure Valley, I will review your home's pricing, competition, presentation, estimated net proceeds and marketing opportunities with you. You get a seller-focused plan from the brokerage's owner and Designated Broker.</p>
 <a class="action gold" href="https://flatfeeboise.com/">Explore the $3,777 Listing</a>
-<a class="action" href="tel:+12088077789">Call or Text (208) 807-7789</a>
+<div class="phone-display" aria-label="Call or text Jeff Jones at 208-807-7789"><span class="phone-display-label">Call/Text Jeff Jones personal cell phone now</span><strong>(208) 807-7789</strong></div>
 <p>Or return to <a href="/seller-insights.html">208 Premier Seller's Advantage</a> for my latest market analysis and seller strategies.</p>
 </section>
 </main>
